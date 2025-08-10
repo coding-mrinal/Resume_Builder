@@ -1,6 +1,6 @@
 # 📄 ResumeBuilder Pro - Professional Resume Creator
 
-<div align="center">
+
   
   ![ResumeBuilder Pro](https://img.shields.io/badge/ResumeBuilder_Pro-Professional_CV_Creator-4A90E2?style=for-the-badge&logo=react&logoColor=white)
   ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)
