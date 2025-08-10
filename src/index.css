@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light/Dark mode variables */
+:root {
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --border-color: #e2e8f0;
+  --accent-primary: #0ea5e9;
+  --accent-secondary: #3b82f6;
+}
+
+.dark {
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --text-primary: #f1f5f9;
+  --text-secondary: #94a3b8;
+  --border-color: #334155;
+  --accent-primary: #38bdf8;
+  --accent-secondary: #60a5fa;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-gray-100 dark:bg-gray-800;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-300 dark:bg-gray-600 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-400 dark:bg-gray-500;
+}
+
+/* Smooth transitions */
+* {
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+/* Drag and drop styles */
+.dragging {
+  @apply opacity-50 scale-95 transition-all duration-200;
+}
+
+.drag-over {
+  @apply border-blue-400 bg-blue-50 dark:bg-blue-900/20;
+}
+
+/* Print styles */
+@media print {
+  @page {
+    size: A4;
+    margin: 0.5in;
+  }
+  
+  body * {
+    visibility: hidden;
+  }
+  
+  #resume-preview,
+  #resume-preview * {
+    visibility: visible;
+  }
+  
+  #resume-preview {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .no-print {
+    display: none !important;
+  }
+  
+  /* Force light mode colors for print */
+  #resume-preview {
+    background-color: white !important;
+    color: black !important;
+  }
+  
+  #resume-preview .dark\:bg-slate-800 {
+    background-color: #1e293b !important;
+    color: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  
+  #resume-preview h1,
+  #resume-preview h2,
+  #resume-preview h3 {
+    color: #1e293b !important;
+  }
+  
+  #resume-preview .text-white {
+    color: white !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}
