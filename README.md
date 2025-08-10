@@ -18,26 +18,26 @@
 ### 🎨 Professional Templates
 Choose from our carefully crafted templates designed to make your resume stand out:
 
-- **🎨 Modern** - Clean, contemporary design with a creative touch
-- **💼 Professional** - Classic layout perfect for corporate positions
-- **✨ Creative** - Bold and unique design for creative professionals
-- **⚪ Minimal** - Simple, elegant design that focuses on content
+ **🎨 Modern** - Clean, contemporary design with a creative touch
+ **💼 Professional** - Classic layout perfect for corporate positions
+ **✨ Creative** - Bold and unique design for creative professionals
+ **⚪ Minimal** - Simple, elegant design that focuses on content
 
 ### 🎯 Color Themes
 Personalize your resume with beautiful color schemes:
 
-- **🌊 Ocean Blue** - Professional and trustworthy
-- **🍀 Emerald Green** - Fresh and innovative
-- **👑 Royal Purple** - Creative and sophisticated
-- **🌹 Rose Pink** - Modern and approachable
-- **🌟 Golden Amber** - Warm and confident
-- **🔘 Professional Gray** - Classic and timeless
+ **🌊 Ocean Blue** - Professional and trustworthy
+ **🍀 Emerald Green** - Fresh and innovative
+ **👑 Royal Purple** - Creative and sophisticated
+ **🌹 Rose Pink** - Modern and approachable
+ **🌟 Golden Amber** - Warm and confident
+ **🔘 Professional Gray** - Classic and timeless
 
 ### 🌓 Dark Mode Support
-- Seamless dark/light mode toggle
-- Eye-friendly interface for extended use
-- Consistent design across both themes
-- Auto-detect system preference
+ Seamless dark/light mode toggle
+ Eye-friendly interface for extended use
+ Consistent design across both themes
+ Auto-detect system preference
 
 ### 📱 Core Features
 
